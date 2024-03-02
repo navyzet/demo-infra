@@ -8,8 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  profile = "default"
-  region  = "eu-west-3"
+  region = "eu-north-1"
 }
 
 resource "aws_instance" "demo" {
